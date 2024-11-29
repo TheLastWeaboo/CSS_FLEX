@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronic Product Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .product-layout {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      font-size: 1.2em;
+      margin: 10px 0;
+      color: #333;
+    }
+    .product-card p {
+      margin: 5px 0;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .product-card .price {
+      font-size: 1.1em;
+      color: green;
+      font-weight: bold;
+    }
+    .product-card button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .product-card button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-layout">
+    <div class="product-card">
+      <img src="https://laz-img-sg.alicdn.com/p/0f4c28d914cf1108870988268196d25f.jpg" alt="Smartphone">
+      <h3>Smartphone X12</h3>
+      <p>6.5" Display | 128GB Storage | 5G</p>
+      <p class="price">$699.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://www.evetech.co.za/repository/mobile/Laptop/ProImages/asus-zenbook-13-ux334fl-core-i7-ultrabook-1000px-v2-0003.jpg" alt="Laptop">
+      <h3>Ultrabook Pro</h3>
+      <p>13.3" Display | Intel i7 | 16GB RAM</p>
+      <p class="price">$999.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71iXo7Wpp1L._SL1500_.jpg" alt="Headphones">
+      <h3>Noise-Cancelling Headphones</h3>
+      <p>Wireless | 30 Hours Battery Life</p>
+      <p class="price">$199.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://i5.walmartimages.com/asr/5bc5d9fa-8243-4617-b1cc-6f438184a187.ce74e9dfe5fcfbe197421d0892edea6a.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" alt="Smartwatch">
+      <h3>Smartwatch Series 5</h3>
+      <p>Heart Rate Monitor | GPS | Waterproof</p>
+      <p class="price">$249.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>

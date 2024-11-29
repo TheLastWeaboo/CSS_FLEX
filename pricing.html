@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .pricing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .pricing-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .pricing-card h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .pricing-card p {
+      font-size: 1.2em;
+      color: green;
+      margin: 10px 0;
+    }
+    .pricing-card button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .pricing-card button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="pricing">
+    <div class="pricing-card">
+      <h3>Basic Plan</h3>
+      <p>$19.99/month</p>
+      <button>Sign Up</button>
+    </div>
+    <div class="pricing-card">
+      <h3>Standard Plan</h3>
+      <p>$29.99/month</p>
+      <button>Sign Up</button>
+    </div>
+    <div class="pricing-card">
+      <h3>Premium Plan</h3>
+      <p>$49.99/month</p>
+      <button>Sign Up</button>
+    </div>
+  </div>
+</body>
+</html>
